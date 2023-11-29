@@ -101,8 +101,8 @@ width: 100%;
 
 .iphone-image {
   position: absolute;
-  top: -100px;
-  width: 60%;
+  top: -140px;
+  max-width: 250px;
 }
 
 .content-image-resize {
@@ -146,6 +146,7 @@ justify-content: center;
 
   .premium-header{
     color: var(--White);
+    margin-top: 1.6em;
    
   }
 
@@ -250,7 +251,7 @@ width: 10%;
    }
 
   .hero-section {
-   width: 70%;
+   width: 50%;
     margin-left: 2.2em;
   }
 
@@ -278,7 +279,7 @@ width: 10%;
     margin-top: 12em;
     background-color: var(--DarkerBlue);
     border-radius: 0.6em;
-  width: 100%;
+  width: 90%;
   max-width: 1000px;
   min-height: 90vh;
 
@@ -287,17 +288,17 @@ width: 10%;
 
   .iphone-image {
     position: absolute;
-    top: -30%;
-    left: 122px;
-  width: 30%;
+    top: -17%;
+    left:172px;
+  width: 100%;
     
   }
 
   .premium-section{
-    width: 40%;
+    width: 30%;
     position: absolute;
-   top: 345px;
-   right: 32px;
+   top: 320px;
+   right: 200px;
    z-index: 500;
     border-radius: 2%;
   display: flex;
