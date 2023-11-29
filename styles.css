@@ -139,23 +139,25 @@ button{
  z-index: 500;
   border-radius: 2%;
 display: flex;
-min-height: 110vh;
+padding: 1em;
 flex-direction: column;
 justify-content: center;
   background-color: var(--Orange);}
 
   .premium-header{
     color: var(--White);
+   
   }
 
   .premium-wrapper{
-   margin-left: 2em;
-   margin-top: 2em;
+   margin-left: 1.6em;
+ 
   }
 
   .premium-paragraph{
      color: var(--White);
      width: 80%;
+     margin-top: 1em;
   }
 
 .apple{
